@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-baord',
-  templateUrl: './baord.component.html',
-  styleUrls: ['./baord.component.scss']
+  selector: 'app-board',
+  templateUrl: './board.component.html',
+  styleUrls: ['./board.component.scss']
 })
 
-export class BaordComponent implements OnInit {
+export class BoardComponent implements OnInit {
   squares!: string[];
   xIsNext!: boolean;
   winner: string | null = null;
